@@ -23,3 +23,22 @@ Cara Kerja Program :
 3. Ketika pertanyaan diterima, setiap salinan sisi client akan meminta pengguna memasukkan warna dalam bahasa Indonesia dan memberikan nilai 100 apabila warna yang dijawab sesuai dan memberikan nilai 0 jika warna yang dijawab salah.
 4. Proses ini berlanjut sampai server selesai mengirimkan pertanyaan atau dihentikan secara manual, dan setiap salinan dari sisi client telah menjawab semua pertanyaan dan ditutup.
 
+.
+
+.
+
+.
+
+SCREENSHOT 
+
+Sisi Server 
+
+![image](https://github.com/7Riv/Pemrograman-jaringan/assets/129931439/e62ce27e-a00f-4a17-bb10-311ec73275d9)
+
+Client
+
+![image](https://github.com/7Riv/Pemrograman-jaringan/assets/129931439/cdd09868-634a-476a-9692-ea35a5e7c39d)
+
+Client2
+
+![image](https://github.com/7Riv/Pemrograman-jaringan/assets/129931439/04f570ff-9b42-4761-a277-c5822f969fab)
