@@ -4,12 +4,15 @@ def main():
     server_ip = "127.0.0.1"
     server_port = 12345
 
-    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client_socket.connect((server_ip, server_port))
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    client_socket.sendto(b"Connect", (server_ip, server_port))
 
     num_questions = 10
     for _ in range(num_questions):
-        received_color = client_socket.recv(1024).decode()
+        received_color, _ = client_socket.recvfrom(1024)
+        if received_color == b"End":  
+            break 
+        received_color = received_color.decode()
         print(f"Received color: {received_color}")
 
         user_response = input("Masukkan warna dalam bahasa Indonesia: ").lower()
