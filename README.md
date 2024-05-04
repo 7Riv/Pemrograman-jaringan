@@ -1,7 +1,7 @@
 Nama : Syarif Hidayatullah
 NIM : 1203220094
 
-PENJELASAN KODE PROGRAM
+## PENJELASAN KODE PROGRAM ##
 
 Kode Server (FTP Server Tugas2.py):
 
@@ -29,7 +29,7 @@ Kode Client (FTP Client Tugas 2.py):
 6. Loop Utama: Client memasukkan perintah dari pengguna dan mengirimkannya ke server. Client juga menerima respons dari server dan menangani pengunduhan atau pengiriman file sesuai kebutuhan.
 
 
-CARA MENGGUNAKAN COMMAND DARI SERVER DAN CLIENT:
+## CARA MENGGUNAKAN COMMAND DARI SERVER DAN CLIENT: ##
 
 Server:
 1. Jalankan Server: Jalankan skrip server.py di terminal atau lingkungan Python.
